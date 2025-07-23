@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  background: #fff; 
+  border-bottom: 2px solid #ddd;
+  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e70000;
+}
+
+.logo span {
+  color: #00aaff;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background: url('./8d77a05aae0b5a86186ed1ee3cd1a093fd90802f.png') no-repeat center/cover;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.services {
+  padding: 50px;
+  background: white;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.service img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.contact {
+  background: #24cad4;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.container img{
+   width: 50px;
+  height: 50px;
+}
+
+.map img {
+  width: 350px;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
